@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgba(133, 47, 47, 0.39);
+}
+
+header{
+    width: 92%;
+    height: 100px;
+    background-color: cyan;
+    margin: 0 auto;
+
+}
+nav{
+    width: 92%;
+    height:85px;
+    background-color: rgba(0, 0, 0, 0.527);
+    margin: 0 auto;
+}
+article{
+    width: 63%;
+    height: 700px;
+    background-color: rgb(0, 255, 179);
+    float: left;
+    margin-left: 4%;
+    
+    
+}
+aside{
+    width: 29%;
+    height: 700px;
+    background-color: cyan;
+    float: right;
+    margin-right: 4%;
+
+}

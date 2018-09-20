@@ -1,99 +1,202 @@
 <!DOCTYPE html>
-<html lang="es">
+
 <head>
+    <html lang="es">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>proyecto</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="Js/jquery.js"></script>
 </head>
+
 <body>
-        <section id="principal">
-    <header>
-        <h1 id="encabezado"></h1>
+    <section class="container mt-5">
+            <header class="container-fluid">
+                    <img class=" img-fluid float-none"src="Img/descarga.jpg">
+                    <img class=" img-fluid float-right" src="Img/descarga.jpg">
+            </header>
+            <nav class=" container navbar navbar-expand-lg bg-dark navbar-dark " >
+                    <a class="navbar-brand" href="#">Menu</a>
+                    <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#Novedades">Novedades <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#categorias">Categorias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#Novedades">Novedades</a>
+                            <a class="dropdown-item" href="#categorias">Categorias</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#contactos">Contactos</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#contactos">Contactos</a>
+                        </li>
+                      </ul>
+                      <!--form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form-->
+                    </div>
+                  </nav>
+            
+    </section>
+    <!-- novedades-->
+    <section class="container">
+        <h1 class="text-left" id="Novedades" >Novedades</h1>
+        <hr>
+        <section class="row">
+            <section class=" col-lg-5 col-sm-12 col-md-5 col-xl-5">
+                <img class="img-fluid" src="Img/descarga.jpg">
+                <br>
+                <h2>Teman 1:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+                <br>
+                <img  class="img-fluid"src="Img/descarga.jpg">
+                <br>
+                <h2>Teman 3:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+
+            </section>
+            <section class=" col-lg-5 col-sm-12 col-md-5 col-xl-5">
+                <img   class="img-fluid"src="Img/descarga.jpg">
+                <br>
+                <h2>Teman 2:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+                <br>
+                <img  class="img-fluid" src="Img/descarga.jpg">
+                <br>
+                <h2>Teman 4:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+
+            </section>
+            <aside class="col-md-2">
+                <h2>articulos</h2>
+                <ol>
+                    <li>top1</li>
+                    <li>top1</li>
+                    <li>top1</li>
+                    <li>top1</li>
+                    <li>top1</li>
+                    <li>top1</li>
+                    <li>top1</li>
+                </ol>
+            </aside>
+        </section>
+
+    </section>
+    <!--Categorias-->
+    <section class="container">
+        <h1 id="categorias" class="text-left">Categorias</h1>
+        <hr>
+        <section class="row">
+            <section class=" col-lg-5 col-sm-12 col-md-5 col-xl-5">
+                <img  class="img-fluid" src="Img/descarga.jpg">
+                <br>
+                <h2>Teman 1:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+                <br>
+                <img   class="img-fluid"src="Img/descarga.jpg">
+                <br>
+                <h2>Teman 3:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+
+            </section>
+            <section class=" col-lg-5 col-sm-12 col-md-5 col-xl-5">
+                <img  class="img-fluid"src=" Img/descarga.jpg">
+                <br>
+                <h2>Teman 2:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+                <br>
+                <img  class="img-fluid" src="Img/descarga.jpg">
+                <br>
+                <h2>Teman 4:</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa saepe numquam consequatur iusto
+                    ipsam
+                    blanditiis consequuntur! Reiciendis id sapiente iure aperiam quae non eum, ex deserunt, tempora
+                    aspernatur voluptatibus consectetur.
+                </p>
+            </section>
+            <footer class="container-fluid bg-primary">
+                <h1 id="contactos" class="text-left">Contactos</h1>
+                <hr>
+                    <form action="" class="">
+                            <section class="form-group">
+                                <label class="" for="nombre">Nombre</label>
+                                <input class="" id="nombre" type="text" placeholder="Nombre:">
+                    </section>
+                    <section class="form-group">
+                            <label class="" for="Correo">Correo</label>
+                            <input class="" id="Correo" type="text" placeholder="Correo">
+                    </section>
+                        </form>
+
+            </footer>
+        </section>
+        <script>
+            //tomamos la altura   
+    var altura = $('nav').offset().top;
+	//verificamos el scroll
+	$(window).on('scroll', function(){
+        //si escroll es mayor a altura
+		if ( $(window).scrollTop() > altura ){
+			$('nav').addClass('fixed-top');
+		} else {
+			$('nav').removeClass('fixed-top');
+		}
+    });
+        </script>
         
-    </header>
-    <nav>
-        <ol id="menu">
-               <li>
-
-               </li>
-               <li>
-                   
-               </li>
-        </ol>
-       
-    </nav>
-
-    <article>
-        <h1 id="definicion">Marcas de portivas</h1>
-    <section class="contenedor" >
-        <h2>NIKE</h2>
-        <p>La marca norteamericana fundada por Phil Knight y Bill Bowerman
-            en 1964, es la marca de ropa deportiva más importante del mundo.
-            Con presencia en casi todos los mercados del planeta, se ha consolidado
-            como una firma creativa y a la vanguardia, además agrupa una lista de
-            patrocinados que incluye a Cristiano Ronaldo, el Real Madrid, la
-            selección brasilera, entre otros como Paolo Guerrero y Alianza
-            Lima en el Perú.
-        </p>
-        <p>
-            Valor de marca: 27.000 millones de dólares 
-            Incremento interanual: 3,8% 
-                
-           
-        </p>
-
-
-    </section>
-
-    <seccion class="contenedor">
-            
-    </seccion>
-
-    <section class="contenedor">
-            <h2>ADIDAS</h2>
-            
-    </section>
-
-    <section class="contenedor">
-
-    </section>
-    <seccion class="contenedor">
-        <h2>Reebok </h2>
-    
-    </seccion>
-    
-    <section class="contenedor">
-                
-    </section>
-    
-    <section class="contenedor">
-        <h2>Under Armour </h2>
-    
-    </section><seccion class="contenedor">
-    
-        </seccion>
-    
-        <section class="contenedor">
-            <h2>PUMA</h2>
-        </section>
-    
-        <section class="contenedor">
-    
-        </section>
-
-
-
-    </article>
-
-    <aside>
-
-        </aside>
-
-        <footer>
-
-    </footer>
-    </section>
+        <script src="bootstrap/js/bootstrap.js"></script>
 </body>
+
 </html>

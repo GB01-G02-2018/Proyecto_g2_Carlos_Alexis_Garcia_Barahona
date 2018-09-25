@@ -1,33 +1,30 @@
 
 body{
-    ba
+  background-image: url("../Img/Android.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .container{
-    background-color: silver;
+    background-color: rgba(15, 9, 9, 0.178);
 }
 aside{
-    background-color: rgb(216, 216, 216);
+    background-color: rgba(15, 9, 9, 0.295);
 }
 footer{
-    background-color: blueviolet
 }
-
-#columnaone{
-    background-color: silver;
-
+.imagen{
+    height: 300px !important;
+    width: 400px;
+    margin: 0 auto;
 }
-.img-fluid{
-    height: 200px !important;
-    margin: 5%
-}
-h1{
-    text-align: center;
+.carrucel{
+    height: 400px !important;
+    width: 100%;
 }
 nav{
     background-color: aqua;
-}
-table{
-    margin-top: 10%;
 }
 .NavFixed {
     position: fixed;
@@ -41,4 +38,93 @@ table{
   }
   .NavFixed a{
     color: white !important;
-  } 
+  }
+  P{
+      text-align: justify;
+      margin: 4%;
+      color:white;
+  }
+  li{
+      color: white;
+  }
+  input{
+      width: 25%;
+      margin-top: 1%;
+  }
+h2{
+      color: white;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+  }
+h5{
+    color: white;
+    margin: 2%;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+}
+label{
+    color: white;
+}
+form{
+    margin-left: 3%;
+}
+.SMARPHONE1{
+    height: 320px !important;
+    width: 60%;
+}
+.SMARPHONE2{
+    height: 320px !important;
+    width: 60%;
+}
+.SMARHONE3{
+    height: 320px !important;
+    width: 60%;
+    margin: 3%;
+}
+.lista{
+    text-align: left;
+}
+#Samsung{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+
+}
+#xiaomi{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+#ONE6{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 2%;
+    text-align: center;
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 25%;
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+#contactos{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25%;
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
